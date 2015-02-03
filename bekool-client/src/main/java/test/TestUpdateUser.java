@@ -15,7 +15,7 @@ public class TestUpdateUser {
 				.lookup("/bekool/UserServices!"
 						+ UserServicesRemote.class.getCanonicalName());
 
-		User user = proxy.findUserById(2);
+		User user = proxy.findUserById(3);
 		user.setName("loulou");
 
 		proxy.updateUser(user);

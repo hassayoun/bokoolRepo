@@ -16,8 +16,8 @@ public class TestAddUser {
 						+ UserServicesRemote.class.getCanonicalName());
 
 		User user = new User();
-		user.setId(2);
-		user.setName("foufou");
+		user.setId(3);
+		user.setName("hussein");
 
 		proxy.addUser(user);
 	}
